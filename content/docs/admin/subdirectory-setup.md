@@ -17,7 +17,7 @@ Before following this, ensure you have apache installed along with PHP & ensure 
 sudo a2enmod rewrite
 ``` 
 
-First, You will need to choose a folder to install BookStack into. This should a separate directory from where your main website is being served from since you don't want to risk exposing any of the private BookStack files.
+First, You will need to choose a folder to install BookStack into. This should be a separate directory from where your main website is being served from since you don't want to risk exposing any of the private BookStack files.
 By default Apache on Ubuntu serves from the `/var/www/html` directory. In this example, we'll use `/var/www/bookstack` to store our BookStack install. If you use a different path ensure you change that path in the below steps.
 Create this directory and follow the standard [BookStack install steps](/docs/admin/installation) to install BookStack into this folder. Once complete, following our example directory above, you should end up with a `.env` file in the `/var/www/bookstack` folder.
 
